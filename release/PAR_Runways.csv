@@ -1,0 +1,92 @@
+# PAR_Runways.csv - one line per runway end with a PAR approach. Separator ';'. Lines starting with # are ignored.
+
+# ICAO;RWY;THR_LAT;THR_LON;THR_ELEV_FT;TRUE_COURSE;MAG_COURSE;GLIDE_DEG;RDH_FT;NOTE
+
+# THR_LAT/LON in decimal degrees (S and W negative). TRUE_COURSE is used for the geometry.
+
+# Source: DIRCAM MIAC2 charts (PAR charts), data as read at the time of writing - verify before relying on it.
+
+LFRJ;07;48.5267444;-4.1692833;329;73.2;74;2.7;61;true 073.2 per AIP
+
+LFRJ;25;48.5337222;-4.1342639;336;253.4;254;2.7;61;true 253.4 per AIP; RDH out of norms
+
+LFSX;29;47.7830111;6.3644083;884;293.2;291;3.0;49;true 293.2 per AIP
+
+LFOA;06;47.0479472;2.6117778;546;60.3;59;3.0;49;
+
+LFOA;24;47.0635278;2.6518556;577;240.3;239;3.0;52;
+
+LFMI;15;43.5377694;4.9132972;77;152.7;150;3.0;56;
+
+LFMI;33;43.5077861;4.9346194;62;332.7;330;3.0;56;
+
+LFBC;06;44.5280694;-1.1379361;74;56.5;57;3.0;50;
+
+LFBC;24;44.5399667;-1.1127556;83;236.5;237;3.0;52;
+
+LFOJ;07;47.9839111;1.7455611;412;69.3;68;3.0;46;
+
+LFOJ;25;47.9915444;1.7756889;399;249.3;248;3.0;58;
+
+LFSI;11;48.6402500;4.8843556;444;112.9;111;3.0;50;true 112.9 per AIP
+
+LFBM;09;43.9107167;-0.5317778;164;87.1;87;3.0;50;true 087.1 per AIP
+
+LFBM;27;43.9122917;-0.4869639;197;268.0;267;3.0;52;elevation is DTHR TRUE=MAG+1 estimate
+
+LFBG;05;45.6492139;-0.3230278;77;50.0;49;3.0;50;coordinates and elevation are DTHR TRUE=MAG+1 estimate
+
+LFBG;23;45.6612611;-0.3027917;100;230.0;229;3.0;49;coordinates and elevation are DTHR TRUE=MAG+1 estimate
+
+LFTH;05;43.0957000;6.1432278;6;51.2;49;3.5;20;DTHR; true 051.2
+
+LFRL;23;48.2849389;-4.4392167;269;233.0;232;3.0;58;TRUE=MAG+1 estimate
+
+LFRH;07;47.7562611;-3.4591667;134;74.0;73;3.0;49;TRUE=MAG+1 estimate
+
+LFRH;20;47.7706444;-3.4356111;159;198.0;197;3.0;49;TRUE=MAG+1 estimate
+
+LFRH;25;47.7625417;-3.4309111;140;254.0;253;3.0;57;coordinates and elevation are DTHR TRUE=MAG+1 estimate
+
+LFKS;18;41.9362444;9.4050611;20;177.0;176;3.0;54;TRUE=MAG+1 estimate
+
+LFMO;14;44.1488972;4.8597472;194;144.3;142;2.5;58;
+
+LFMO;32;44.1313361;4.8773556;186;324.3;322;2.5;50;
+LFML;13L;43.4491390;5.1973160;9;134.0;132;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFML;13R;43.4409222;5.2035472;8;134.9;133;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFML;31L;43.4258639;5.2243520;64;314.9;313;4.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFML;31R;43.4272611;5.2284556;70;314.1;312;4.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFPG;09L;49.0247194;2.5248917;378;85.3;84;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFPG;08R;48.9929139;2.5656611;337;85.3;84;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFPG;27R;49.0266945;2.5616917;392;265.3;264;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFPG;26L;48.9948777;2.6024361;317;265.4;264;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFLL;17L;45.7349416;5.0918694;780;175.1;173;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFLL;35R;45.7110056;5.0947805;821;355.1;353;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFBO;14R;43.6440670;1.3460530;488;143.0;141;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFBO;32L;43.6188930;1.3722680;497;323.0;321;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFPO;06;48.7199750;2.3169190;288;62.0;61;3.0;50;ILS-config runway (no real PAR); TRUE=MAG+1 estimate
+LFPO;25;48.7274310;2.4020690;285;255.0;254;3.0;50;ILS-config runway (no real PAR); TRUE=MAG+1 estimate
+LFRS;03;47.1416028;-1.6195444;73;27.4;28;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFRS;21;47.1643694;-1.6022083;87;207.4;208;3.1;50;ILS-config runway (no real PAR), course from threshold pair. ILS config says 220 but geometry gives 207 true, so 208 magnetic used
+LFBD;05;44.8191028;-0.7289833;160;45.4;45;3.4;50;ILS-config runway (no real PAR); true course from threshold pair
+LFBD;23;44.8386944;-0.7010000;151;225.4;225;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFMT;12L;43.5861111;3.9557139;17;124.8;122;3.7;50;ILS-config runway (no real PAR); true course from threshold pair
+LFMT;30R;43.5727694;3.9822167;6;304.8;303;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFMN;04L;43.6518083;7.2040417;10;45.0;42;3.0;50;ILS-config runway (no real PAR); true course from AIP
+LFSB;15;47.6176833;7.5098750;864;154.9;152;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFSB;33;47.5859472;7.5319556;882;334.9;332;3.5;50;ILS-config runway (no real PAR); true course from threshold pair
+LFBZ;09;43.4682444;-1.5372250;241;89.2;88;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFBZ;27;43.4685361;-1.5094222;219;269.2;268;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFBH;09;46.1796611;-1.2104639;59;92.4;92;3.5;50;ILS-config runway (no real PAR); true course from threshold pair
+LFBH;27;46.1788139;-1.1818194;71;272.5;272;3.2;50;ILS-config runway (no real PAR); true course from threshold pair
+LFRB;07R;48.4433750;-4.4383500;289;71.2;72;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFRB;25L;48.4523444;-4.3986861;309;251.2;252;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFPB;07;48.9638361;2.4202889;148;68.0;67;3.0;50;ILS-config runway (no real PAR); true course from AIP
+LFPB;27;48.9650528;2.4455472;166;265.0;264;3.0;50;ILS-config runway (no real PAR); true course from AIP
+LFOB;12;49.4583111;2.1038528;352;123.7;122;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFOB;30;49.4462056;2.1317333;297;303.7;302;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFQQ;08;50.5628806;3.0830167;156;77.4;75;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFQQ;26;50.5684583;3.1222306;135;257.4;255;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFRN;10;48.0736806;-1.7461000;77;100.7;101;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
+LFRN;28;48.0701833;-1.7183694;121;280.7;281;3.0;50;ILS-config runway (no real PAR); true course from threshold pair
