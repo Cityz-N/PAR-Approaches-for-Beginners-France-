@@ -55,9 +55,9 @@ THINGS TO KNOW
   - First version, not yet tested inside EuroScope: expect a round of fixes.
 
 
-
+=====================================
 PAR PHRASEOLOGY  /  PHRASEOLOGIE PAR
-
+=====================================
 Based on the ICAO precision radar approach phraseology (Doc 4444 / Doc 9432) as I know it, with
 a French rendering following the usual French military/civil usage. Wording varies a little
 between units: check it against your own reference (French RCA3 / MIAC documents) before
